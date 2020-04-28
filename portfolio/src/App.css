@@ -25,6 +25,7 @@ nav {
 .navLink {
   display: grid;
   visibility: hidden;
+  font-weight: 900;
 }
 
 nav a {
