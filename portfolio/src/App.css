@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  background-color: white;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background: #030c40;
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  justify-content: right;
+  height: 50px;
+}
+
+.navLink {
+  display: grid;
+  visibility: hidden;
+}
+
+nav a {
+  padding: 15px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.navBar {
+  transition-duration: 600ms;
+}
+
+.menu {
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+nav a:hover,
+.project a:hover {
+  color: #0dd9d9;
+  transition: all ease 500ms;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.header-background {
+  background: url(/images/backsplash.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -4;
+}
+
+.header-content {
+  color: white;
+  font-family: 'Lalezar', sans-serif;
+  font-size: 30px;
+  background: var(--overlay);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+  border: #0dd9d9 3px solid;
+  border-radius: 50%;
+}
+
+header {
+  text-align: center;
+}
+
+.box-wrapper {
+  transition-duration: 600ms;
+}
+
+.box-wrapper.loading:nth-child(odd) {
+  transform: translate(100%);
+}
+.box-wrapper.loading:nth-child(even) {
+  transform: translate(-100%);
+}
+
+.box {
+  margin: auto;
+}
+.lastname {
+  color: #0dd9d9;
+}
+
+#about,
+#projects,
+#skills,
+#contact {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  background: #fff;
+  padding: 20px;
+}
+
+.title {
+  border-left: solid 5px #0dd9d9;
+  font-size: 44px;
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.projects-content {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.project {
+  color: white;
+  background: rgba(6, 13, 59);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.project h2 {
+  color: white;
+}
+
+.project a {
+  color: white;
+  font-size: 14px;
+}
+
+.project img {
+  width: 300px;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.projects-animation {
+  animation: slideUp 0.5s;
+}
+
+.about,
+#skills {
+  font-size: 28px;
+}
+
+.employment {
+  color: #0dd9d9;
+}
+
+.employment:hover {
+  text-decoration: underline black;
+  transition: all ease 1s;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.connect a {
+  text-decoration: none;
+  color: black;
+}
+
+.connect a:hover {
+  color: #0dd9d9;
+  transition: all ease 500ms;
+}
+
+.skill {
+  background-color: #030c40;
+  height: 175px;
+  width: 175px;
+  color: white;
+  display: grid;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.skill:hover {
+  animation: shake 1s;
+}
+
+.skill-logo {
+  margin-top: 20px;
+  margin: 20px auto 0 auto;
+}
+
+.skill-name {
+  margin: 0 auto;
+}
+
+.skills-front,
+.skills-back,
+.skills-other {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.skills-animation {
+  animation: fade 2s;
+}
+
+.loaded {
+  animation: fade 0s;
+}
+
+#contact a {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 60px;
+}
+
+#contact a:hover {
+  color: #0dd9d9;
+  transition: all ease 500ms;
+}
+
+.contact {
+  padding-bottom: 50px;
+}
+
+footer {
+  background: #030c40;
+  width: 100%;
+  color: #0dd9d9;
+  font-family: 'Lato', sans-serif;
+}
+
+footer p {
+  padding: 25px;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    display: grid;
+  }
+  .skill {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .skill-category {
+    text-align: center;
+  }
+}
