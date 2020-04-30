@@ -2,21 +2,9 @@ import React from 'react';
 
 const toggleMenu = () => {
   const menu = document.querySelector('.menu');
-  const nav = document.querySelector('.navBar');
   const navLinks = document.querySelector('.navLink');
   menu.classList.toggle('menu-x');
   navLinks.classList.toggle('offsetNav');
-
-  // if (nav.style.height !== '420px') {
-  //   nav.style.height = '420px';
-
-  //   // setTimeout(function () {
-  //   //   navLinks.style.visibility = 'visible';
-  //   // }, 600);
-  // } else {
-  //   // navLinks.style.visibility = 'hidden';
-  //   nav.style.height = '50px';
-  // }
 };
 
 function Nav() {
@@ -28,7 +16,7 @@ function Nav() {
         <div className="line3"></div>
       </div>
       <div className="navBackground"></div>
-      <div className="navLink offsetNav">
+      <div className="navLink offsetNav" onClick={toggleMenu}>
         <a href="#projects">PROJECTS</a>
         <a href="#about">ABOUT</a>
         <a href="#skills">SKILLS</a>
