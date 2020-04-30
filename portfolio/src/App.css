@@ -20,12 +20,32 @@ nav {
   display: grid;
   justify-content: right;
   height: 50px;
+  z-index: 1;
+}
+
+.navBackground {
+  background: #030c40;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  top: 0;
 }
 
 .navLink {
   display: grid;
-  visibility: hidden;
   font-weight: 900;
+  transition: 600ms;
+  justify-content: right;
+  background: #030c40;
+  position: relative;
+  z-index: -1;
+  width: 110vw;
+  margin-top: 45px;
+  padding-bottom: 10px;
+}
+
+.offsetNav {
+  transform: translateY(-120%);
 }
 
 nav a {
@@ -42,8 +62,35 @@ nav a {
 }
 
 .menu {
-  margin-left: 50px;
+  margin-right: 20px;
   cursor: pointer;
+  display: block;
+  transition: ease-in 600ms;
+  background: #030c40;
+  z-index: 1;
+  right: 0;
+  position: fixed;
+}
+
+.menu-x .line1 {
+  transform: rotate(-45deg) translate(-10px, 11px);
+}
+
+.menu-x .line2 {
+  opacity: 0;
+}
+
+.menu-x .line3 {
+  transform: rotate(45deg) translate(-10px, -10px);
+}
+
+.menu div {
+  height: 5px;
+  width: 45px;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  transition: all 600ms ease;
 }
 
 nav a:hover,
