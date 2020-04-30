@@ -29,7 +29,8 @@ function About() {
         </p>
         <br />
         <p className="connect">
-          Let's connect: <a href="mailto:cwalbanese@gmail.com">Email me!</a> or
+          Let's connect: <a href="mailto:cwalbanese@gmail.com">Email me!</a>{' '}
+          or&nbsp;
           <a
             href="https://www.linkedin.com/in/chris-albanese/"
             target="_blank"
