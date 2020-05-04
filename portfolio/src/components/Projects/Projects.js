@@ -25,7 +25,43 @@ function Projects() {
       <div className="projects-content">
         <div className="project hidden">
           <a
-            href="https://total-garage-frontend.herokuapp.com/"
+            href="https://covid-19-testing.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/preview5.png" alt="project preview" />
+          </a>
+          <h2>COVID-19 Testing</h2>
+          <br />
+          <p>Tech: ReactJS</p>
+          <br />
+          <p>
+            First post-course project. Independently built as a useful tool
+            amidst a global pandemic. Third-party API.
+          </p>
+          <br />
+          <p>
+            <a
+              href="https://covid-19-testing.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Deployed App
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://github.com/danielfruth/total_garage_frontend/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Code
+            </a>
+          </p>
+        </div>
+        <div className="project hidden">
+          <a
+            href="https://github.com/cwalbanese/covid-19-test"
             target="_blank"
             rel="noopener noreferrer"
           >
