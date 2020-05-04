@@ -51,7 +51,7 @@ function Projects() {
           </p>
           <p>
             <a
-              href="https://github.com/danielfruth/total_garage_frontend/"
+              href="https://github.com/cwalbanese/covid-19-test"
               target="_blank"
               rel="noopener noreferrer"
             >
