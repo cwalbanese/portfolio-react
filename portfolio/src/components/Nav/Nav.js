@@ -20,11 +20,11 @@ function Nav() {
         <a href="#home" className="left home-link">
           HOME
         </a>
-        <a href="#projects" className="left projects-link">
-          PROJECTS
-        </a>
         <a href="#about" className="left about-link">
           ABOUT
+        </a>
+        <a href="#projects" className="left projects-link">
+          PROJECTS
         </a>
         <a href="#skills" className="left skills-link">
           SKILLS
