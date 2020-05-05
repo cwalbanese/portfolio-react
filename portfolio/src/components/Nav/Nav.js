@@ -17,26 +17,20 @@ function Nav() {
       </div>
       <div className="navBackground"></div>
       <div className="navLink offsetNav" onClick={toggleMenu}>
-        <a href="#projects">PROJECTS</a>
-        <a href="#about">ABOUT</a>
-        <a href="#skills">SKILLS</a>
-        <a href="mailto:cwalbanese@gmail.com">EMAIL</a>
-        <a
-          href="https://www.linkedin.com/in/chris-albanese/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LINKEDIN
+        <a href="#home" className="left home-link">
+          HOME
         </a>
-        <a
-          href="https://github.com/cwalbanese"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GITHUB
+        <a href="#projects" className="left projects-link">
+          PROJECTS
         </a>
-        <a href="/resume/resume.pdf" target="_blank">
-          RESUME
+        <a href="#about" className="left about-link">
+          ABOUT
+        </a>
+        <a href="#skills" className="left skills-link">
+          SKILLS
+        </a>
+        <a href="#contact" className="left contact-link">
+          CONTACT
         </a>
       </div>
     </nav>

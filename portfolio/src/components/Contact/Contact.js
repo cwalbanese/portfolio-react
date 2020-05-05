@@ -20,6 +20,9 @@ function Contact() {
         >
           GITHUB
         </a>
+        <a href="/resume/resume.pdf" target="_blank">
+          RESUME
+        </a>
       </div>
     </section>
   );

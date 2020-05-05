@@ -32,7 +32,9 @@ nav {
 }
 
 .navLink {
-  display: grid;
+  display: flex;
+  align-items: center;
+  padding: 10px;
   font-weight: 900;
   transition: 600ms;
   justify-content: right;
@@ -40,8 +42,6 @@ nav {
   position: relative;
   z-index: -1;
   width: 110vw;
-  margin-top: 45px;
-  padding-bottom: 10px;
 }
 
 .offsetNav {
@@ -49,12 +49,12 @@ nav {
 }
 
 nav a {
-  padding: 15px;
   font-family: 'Lato', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 18px;
   margin-right: 10px;
+  margin-left: 20px;
 }
 
 .navBar {
@@ -97,6 +97,27 @@ nav a:hover,
 .project a:hover {
   color: #0dd9d9;
   transition: all ease 500ms;
+}
+
+nav a.left {
+  position: relative;
+}
+
+nav a.left:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0dd9d9;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a.left:hover:before {
+  visibility: visible;
+  width: 100%;
 }
 
 .project a {
@@ -355,6 +376,36 @@ footer p {
   }
   .skill-category {
     text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .navLink {
+    margin-top: 45px;
+    padding: 20px;
+    display: grid;
+    justify-content: right;
+    margin-right: 0px;
+  }
+
+  nav a {
+    margin-bottom: 20px;
+  }
+
+  .home-link {
+    width: 46%;
+  }
+
+  .about-link {
+    width: 52%;
+  }
+
+  .skills-link {
+    width: 47%;
+  }
+
+  .contact-link {
+    width: 72%;
   }
 }
 

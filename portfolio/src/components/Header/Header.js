@@ -7,18 +7,20 @@ setTimeout(function () {
 
 function Header() {
   return (
-    <header>
-      <div className="header-background"></div>
-      <div className="box-wrapper loading">
-        <div className="header-content box">
-          <h1>
-            CHRIS <span className="lastname">ALBANESE</span>
-          </h1>
-          <h2>Software Engineer</h2>
-          <img src="images/profile.jpg" alt="profile" />
+    <section id="home">
+      <header>
+        <div className="header-background"></div>
+        <div className="box-wrapper loading">
+          <div className="header-content box">
+            <h1>
+              CHRIS <span className="lastname">ALBANESE</span>
+            </h1>
+            <h2>Software Engineer</h2>
+            <img src="images/profile.jpg" alt="profile" />
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </section>
   );
 }
 
