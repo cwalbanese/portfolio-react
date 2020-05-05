@@ -61,7 +61,7 @@ function Projects() {
         </div>
         <div className="project hidden">
           <a
-            href="https://github.com/cwalbanese/covid-19-test"
+            href="https://total-garage-frontend.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
