@@ -128,7 +128,7 @@ nav a:hover,
 
 header img {
   width: 150px;
-  border: #0dd9d9 3px solid;
+  border: white 3px solid;
   border-radius: 50%;
 }
 
@@ -355,5 +355,30 @@ footer p {
   }
   .skill-category {
     text-align: center;
+  }
+}
+
+@media (min-width: 800px) {
+  .menu {
+    visibility: hidden;
+  }
+
+  .navBackground {
+    visibility: hidden;
+  }
+
+  .offsetNav {
+    transform: none;
+  }
+
+  .navLink {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+
+  nav {
+    display: flex;
   }
 }
