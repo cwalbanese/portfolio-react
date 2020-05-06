@@ -1,4 +1,5 @@
 import React from 'react';
+import Scrollspy from 'react-scrollspy';
 
 const toggleMenu = () => {
   const menu = document.querySelector('.menu');
@@ -17,21 +18,36 @@ function Nav() {
       </div>
       <div className="navBackground"></div>
       <div className="navLink offsetNav" onClick={toggleMenu}>
-        <a href="#home" className="left home-link">
-          HOME
-        </a>
-        <a href="#about" className="left about-link">
-          ABOUT
-        </a>
-        <a href="#projects" className="left projects-link">
-          PROJECTS
-        </a>
-        <a href="#skills" className="left skills-link">
-          SKILLS
-        </a>
-        <a href="#contact" className="left contact-link">
-          CONTACT
-        </a>
+        <Scrollspy
+          items={['home', 'about', 'projects', 'skills', 'contact']}
+          currentClassName="isCurrent"
+        >
+          <li>
+            <a href="#home" className="left home-link">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="left about-link">
+              ABOUT
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="left projects-link">
+              PROJECTS
+            </a>
+          </li>
+          <li>
+            <a href="#skills" className="left skills-link">
+              SKILLS
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="left contact-link">
+              CONTACT
+            </a>
+          </li>
+        </Scrollspy>
       </div>
     </nav>
   );

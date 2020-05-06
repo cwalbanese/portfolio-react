@@ -120,6 +120,15 @@ nav a.left:hover:before {
   width: 100%;
 }
 
+.navLink li {
+  list-style: none;
+  display: inline;
+}
+
+.isCurrent a {
+  color: #0dd9d9;
+}
+
 .project a {
   text-decoration: none;
 }
@@ -390,6 +399,11 @@ footer p {
 
   nav a {
     margin-bottom: 20px;
+  }
+
+  .navLink li {
+    display: flex;
+    flex-direction: column;
   }
 
   .home-link {
