@@ -33,7 +33,8 @@ function Projects() {
           </a>
           <h2>COVID-19 Testing</h2>
           <br />
-          <p>Tech: ReactJS</p>
+          <p>Technology used:</p>
+          <p>ReactJS</p>
           <br />
           <p>
             First post-course project. Independently built as a useful tool
@@ -69,7 +70,8 @@ function Projects() {
           </a>
           <h2>Total Garage</h2>
           <br />
-          <p>Tech: Python, Django, ReactJS, PostgreSQL</p>
+          <p>Technology used:</p>
+          <p>Python, Django, ReactJS, PostgreSQL</p>
           <br />
           <p>
             Team of 2, pair programming. Front-end with React, Back-end API with
@@ -114,11 +116,12 @@ function Projects() {
           </a>
           <h2>Portfolio Rater</h2>
           <br />
-          <p>Tech: NodeJS, ReactJS, MongoDB</p>
+          <p>Technology used:</p>
+          <p>NodeJS, ExpressJS, ReactJS, MongoDB</p>
           <br />
           <p>
-            Team of 3, following Agile methodologies with daily Scrum stand-ups.
-            Front-end with React, Back-end API with Node/Mongo.
+            Team of 3, Agile methods with daily Scrum stand-ups. Front-end with
+            React, Back-end API with NodeJS/ExpressJS/MongoDB.
           </p>
           <br />
           <p>
@@ -160,11 +163,12 @@ function Projects() {
           </a>
           <h2>Thirsty</h2>
           <br />
-          <p>Tech: ReactJS</p>
+          <p>Technology used:</p>
+          <p>ReactJS</p>
           <br />
           <p>
             A search tool to find local breweries by fetching data from a
-            third-party API. Front-end built with React JavaScript.
+            third-party API. Front-end built with ReactJS.
           </p>
           <br />
           <p>
@@ -197,7 +201,8 @@ function Projects() {
           </a>
           <h2>Car Trivia</h2>
           <br />
-          <p>Tech: HTML, CSS, JavaScript</p>
+          <p>Technology used:</p>
+          <p>HTML, CSS, JavaScript</p>
           <br />
           <p>
             A trivia game I created when I was just learning the bare bones of
