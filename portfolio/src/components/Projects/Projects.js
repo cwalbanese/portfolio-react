@@ -37,8 +37,8 @@ function Projects() {
           <p>ReactJS</p>
           <br />
           <p>
-            First post-course project. Independently built as a useful tool
-            amidst a global pandemic. Third-party API.
+            Built as a useful tool amidst a global pandemic. Front-end with
+            ReactJS. Third-party community sourced API.
           </p>
           <br />
           <p>
