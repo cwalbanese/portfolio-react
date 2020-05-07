@@ -89,7 +89,7 @@ function Projects() {
           </p>
           <p>
             <a
-              href="https://github.com/danielfruth/total_garage_frontend/"
+              href="https://github.com/cwalbanese/total_garage_frontend"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -108,7 +108,7 @@ function Projects() {
         </div>
         <div className="project hidden">
           <a
-            href="https://portfoliorater.herokuapp.com/"
+            href="https://portfolio-rater-front.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -126,7 +126,7 @@ function Projects() {
           <br />
           <p>
             <a
-              href="https://portfoliorater.herokuapp.com/"
+              href="https://portfolio-rater-front.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -135,7 +135,7 @@ function Projects() {
           </p>
           <p>
             <a
-              href="https://github.com/Paradox1111/portfolioRater/"
+              href="https://github.com/cwalbanese/portfolioRater"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -144,7 +144,7 @@ function Projects() {
           </p>
           <p>
             <a
-              href="https://github.com/Paradox1111/portfolioRaterAPI/"
+              href="https://github.com/cwalbanese/portfolioRaterAPI"
               target="_blank"
               rel="noopener noreferrer"
             >
