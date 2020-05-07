@@ -62,7 +62,7 @@ function Projects() {
         </div>
         <div className="project hidden">
           <a
-            href="https://total-garage-frontend.herokuapp.com/"
+            href="https://total-garage-front.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -80,7 +80,7 @@ function Projects() {
           <br />
           <p>
             <a
-              href="https://total-garage-frontend.herokuapp.com/"
+              href="https://total-garage-front.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
