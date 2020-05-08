@@ -228,12 +228,11 @@ header {
 
 .project img {
   width: 300px;
+  border-radius: 10px;
 }
 
 .project img:hover {
   transition: 0.3s ease-in-out;
-  outline: 2px solid white;
-  outline-offset: -2px;
   transform: scale(0.98);
 }
 
@@ -256,7 +255,7 @@ header {
 }
 
 .projects-animation {
-  animation: slideUp 0.5s;
+  animation: slideUp 1s;
 }
 
 .about,
