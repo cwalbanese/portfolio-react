@@ -25,6 +25,52 @@ function Projects() {
       <div className="projects-content">
         <div className="project hidden">
           <a
+            href="https://coders-lounge-frontend.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/preview6.png" alt="project preview" />
+          </a>
+          <h2>Coders Lounge</h2>
+          <br />
+          <p>Technology used:</p>
+          <p>NodeJS, ExpressJS, ReactJS, MongoDB</p>
+          <br />
+          <p>
+            A message board built for the coding community. Front-end with
+            React, Back-end API with Node/Express and MongoDB.
+          </p>
+          <br />
+          <p>
+            <a
+              href="https://coders-lounge-frontend.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Deployed App
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://github.com/cwalbanese/coders-lounge"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Front-end Code
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://github.com/cwalbanese/coders-lounge-backend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Back-end code
+            </a>
+          </p>
+        </div>
+        <div className="project hidden">
+          <a
             href="https://covid-19-testing.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -38,7 +84,7 @@ function Projects() {
           <br />
           <p>
             Built as a useful tool amidst a global pandemic. Front-end with
-            ReactJS. Third-party community sourced API.
+            React. Third-party community sourced API.
           </p>
           <br />
           <p>
@@ -121,7 +167,7 @@ function Projects() {
           <br />
           <p>
             Team of 3, Agile methods with daily Scrum stand-ups. Front-end with
-            React, Back-end API with NodeJS/ExpressJS/MongoDB.
+            React, Back-end API with Node/Express and MongoDB.
           </p>
           <br />
           <p>
@@ -168,7 +214,7 @@ function Projects() {
           <br />
           <p>
             A search tool to find local breweries by fetching data from a
-            third-party API. Front-end built with ReactJS.
+            third-party API. Front-end built with React.
           </p>
           <br />
           <p>
